@@ -12,7 +12,7 @@ Welcome to my OpenCV repository! This repo is a collection of projects and scrip
 
 -Drawing shapes and text on images
 
--Image processing (grayscale, blurring, thresholding, edge detection)
+-Image processing (grayscale, blurring, thresholding)
 
 -Image transformations (resize, crop, rotate, perspective warp)
 
