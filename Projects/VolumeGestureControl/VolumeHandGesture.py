@@ -13,7 +13,7 @@ cap.set(4, hCam)
 pTime = 0
 
 
-detector = htm.HandDetector()
+detector = htm.handDetector()
 
 while True:
     success, img = cap.read()
