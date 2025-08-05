@@ -26,6 +26,8 @@ Welcome to my OpenCV repository! This repo is a collection of projects and scrip
 
 -Face Mesh: High-resolution face landmark detection with 468 points
 
+-Volume Control using Gestures - Control your device volume using just your hands.
+
 
 
 ## 🚀 How to Install
