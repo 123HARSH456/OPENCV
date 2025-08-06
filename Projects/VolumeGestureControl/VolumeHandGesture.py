@@ -68,6 +68,7 @@ while True:
         vol = np.interp(length, [35, 250], [minVol, maxVol])    
         volBar = np.interp(length, [35, 250], [400, 150]) 
         print(vol)
+        volPerc = np.interp(length, [35, 250], [0, 100]) 
         #change master volume
         volume.SetMasterVolumeLevel(vol, None)
 
@@ -81,6 +82,7 @@ while True:
         # #volume bar
         cv.rectangle(img, (50, 150), (85, 400), (0,255,0), 3)
         cv.rectangle(img, (50, int(volBar)), (85, 400), (0,255,0), cv.FILLED)
+        cv.putText(img, str(int(volPerc)) + "%", (75, 420), cv.FONT_HERSHEY_COMPLEX, 3, (0, 255, 0))
 
 
 
