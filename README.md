@@ -58,7 +58,7 @@ python HandTrackingMin.py
 
 -MediaPipe
 
--pycaw
+-Pycaw
 
 -NumPy
 
