@@ -39,9 +39,10 @@ Download or clone this repository.
 git clone https://github.com/yourusername/opencv-projects.git
 cd opencv-projects
 
-Install required libraries
+Install required libraries (mediapipe, opencv, pycaw)
 pip install mediapipe
 pip install opencv-contrib-python
+pip install pycaw
 
 Run any script
 python HandTrackingMin.py
@@ -56,6 +57,8 @@ python HandTrackingMin.py
 -OpenCV
 
 -MediaPipe
+
+-pycaw
 
 -NumPy
 
