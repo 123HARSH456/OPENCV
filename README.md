@@ -4,7 +4,7 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 
-Welcome to my OpenCV repository! This repo is a collection of projects and scripts covering everything from OpenCV basics to advanced computer vision applications like hand tracking, pose detection, face mesh, and face detection using MediaPipe and OpenCV.
+Welcome to my OpenCV repository! This repo is a collection of projects and scripts covering everything from OpenCV basics to advanced computer vision applications like hand tracking, pose detection, face mesh, and face detection using MediaPipe and OpenCV. It also consists of my projects like Hand gesture volume control.
 
 ## 🔰 Basics (OpenCV Essentials)
 
