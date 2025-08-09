@@ -27,7 +27,7 @@ while True:
         for faceLandmarks in results.multi_face_landmarks:
             mpDraw.draw_landmarks(img, faceLandmarks, mpFaceMesh.FACEMESH_TESSELATION, drawSpecs, drawSpecs)
 
-            #Heavy code (uncomment at your own risk)
+            #To display position of a point (Takes lot of resources as it prints position of 468 points)
             # for id, landmark in enumerate(faceLandmarks.landmark):
             #     ih, iw, ic = img.shape
             #     x, y = int(landmark.x*iw), int(landmark.y*ih)
